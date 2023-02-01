@@ -39,7 +39,7 @@ export const NavBar = () => {
                         </li>
                     </ul>
 
-                    <CartWidget valor={"10"}/>
+                    <CartWidget valor={"10"} />
                 </div>
             </div>
         </nav>
