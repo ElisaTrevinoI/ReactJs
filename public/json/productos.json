@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "nombre": "Estambres",
+        "marca": "Mandala",
+        "modelo": "Ombre",
+        "precio": 600,
+        "stock": 30,
+        "img": "estambre1_1.webp",
+        "slug": "estambres"
+    },
+    {
+        "id": 2,
+        "idCategoria": 1,
+        "nombre": "Estambres",
+        "marca": "Lion Brand",
+        "modelo": "Wool Ease",
+        "precio": 350,
+        "stock": 20,
+        "img": "estambre2_2.webp",
+        "slug": "estambres"
+    },
+    {
+        "id": 3,
+        "idCategoria": 1,
+        "nombre": "Estambres",
+        "marca": "Lion Brand",
+        "modelo": "Wool Ease",
+        "precio": 260,
+        "stock": 25,
+        "img": "estambre2_3.webp",
+        "slug": "estambres"
+    },
+    {
+        "id": 4,
+        "idCategoria": 2,
+        "nombre": "Accesorios",
+        "marca": "Clover",
+        "modelo": "3118",
+        "precio": 570,
+        "stock": 15,
+        "img": "accesorios1_4.webp",
+        "slug": "accesorios"
+    },
+    {
+        "id": 5,
+        "idCategoria": 2,
+        "nombre": "Accesorios",
+        "marca": "Clover",
+        "modelo": "330",
+        "precio": 800,
+        "stock": 30,
+        "img": "accesorios1_3.webp",
+        "slug": "accesorios"
+    },
+    {
+        "id": 6,
+        "idCategoria": 2,
+        "nombre": "Accesorios",
+        "marca": "Master Knit",
+        "modelo": "Regla1",
+        "precio": 100,
+        "stock": 22,
+        "img": "accesorios1_1.webp",
+        "slug": "accesorios"
+    },
+    {
+        "id": 7,
+        "idCategoria": 3,
+        "nombre": "Patrones",
+        "marca": "Drops",
+        "modelo": "236-22",
+        "precio": 1400,
+        "stock": 7,
+        "img": "patron1_3.webp",
+        "slug": "patrones"
+    },
+    {
+        "id": 8,
+        "idCategoria": 3,
+        "nombre": "Patrones",
+        "marca": "Drops",
+        "modelo": "235-20",
+        "precio": 300,
+        "stock": 20,
+        "img": "patron1_4.webp",
+        "slug": "patrones"
+    },
+    {
+        "id": 9,
+        "idCategoria": 3,
+        "nombre": "Patrones",
+        "marca": "Drops",
+        "modelo": "235-22",
+        "precio": 320,
+        "stock": 10,
+        "img": "patron1_2.webp",
+        "slug": "patrones"
+    }
+]
