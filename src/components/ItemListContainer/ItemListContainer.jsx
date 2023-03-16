@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { consultarBDD } from "../Utils/Funciones";
+import { getProductos } from "../Utils/Firebase";
 import { ItemList } from "../ItemList/ItemList";
 //const prods = products.filter(prod => prod.idCategoria === parseInt(idCategoria))
 
@@ -14,19 +14,20 @@ export const ItemListContainer = () => {
 
   useEffect(() => {
 
-    if (slug) {
+    if ((slug === 'estambres') || (slug === 'accesorios') || (slug === 'patrones')) {
 
-      consultarBDD('../json/productos.json').then(products => {
-        const prods = products.filter(prod => prod.slug === slug)
-        const items = ItemList({ prods })
+      getProductos().then(products => {
+        const prods = products.filter(prod => prod.stock > 0).filter(prod => prod.slug === slug)
+        const items = <ItemList prods={prods} plantilla="Item" />
         setProductos(items)
       })
 
 
     } else {
 
-      consultarBDD('./json/productos.json').then(prods => {
-        const items = ItemList({ prods })
+      getProductos().then(products => {
+        const prods = products.filter(prod => prod.stock > 0)
+        const items = <ItemList prods={prods} plantilla="Item" />
         setProductos(items)
       })
     }

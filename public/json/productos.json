@@ -7,7 +7,7 @@
         "modelo": "Ombre",
         "precio": 600,
         "stock": 30,
-        "img": "estambre1_1.webp",
+        "img": "https://firebasestorage.googleapis.com/v0/b/todoparatejer-d9b60.appspot.com/o/estambre1_1.webp?alt=media&token=97a8fe4c-2c29-4b23-9016-a1b2b92a791d",
         "slug": "estambres"
     },
     {
@@ -18,7 +18,7 @@
         "modelo": "Wool Ease",
         "precio": 350,
         "stock": 20,
-        "img": "estambre2_2.webp",
+        "img": "https://firebasestorage.googleapis.com/v0/b/todoparatejer-d9b60.appspot.com/o/estambre2_2.webp?alt=media&token=f95f9237-9ce6-4b31-9f48-8a093927a4ed",
         "slug": "estambres"
     },
     {
@@ -29,7 +29,7 @@
         "modelo": "Wool Ease",
         "precio": 260,
         "stock": 25,
-        "img": "estambre2_3.webp",
+        "img": "https://firebasestorage.googleapis.com/v0/b/todoparatejer-d9b60.appspot.com/o/estambre2_3.webp?alt=media&token=5fb43eea-54a8-4843-afcd-8493f768d90a",
         "slug": "estambres"
     },
     {
@@ -40,7 +40,7 @@
         "modelo": "3118",
         "precio": 570,
         "stock": 15,
-        "img": "accesorios1_4.webp",
+        "img": "https://firebasestorage.googleapis.com/v0/b/todoparatejer-d9b60.appspot.com/o/accesorios1_4.webp?alt=media&token=951261ef-f01d-4246-8393-44caf8b619b5",
         "slug": "accesorios"
     },
     {
@@ -51,7 +51,7 @@
         "modelo": "330",
         "precio": 800,
         "stock": 30,
-        "img": "accesorios1_3.webp",
+        "img": "https://firebasestorage.googleapis.com/v0/b/todoparatejer-d9b60.appspot.com/o/accesorios1_3.webp?alt=media&token=662c9290-21f6-4e5e-b5a6-ea607977a566",
         "slug": "accesorios"
     },
     {
@@ -62,7 +62,7 @@
         "modelo": "Regla1",
         "precio": 100,
         "stock": 22,
-        "img": "accesorios1_1.webp",
+        "img": "https://firebasestorage.googleapis.com/v0/b/todoparatejer-d9b60.appspot.com/o/accesorios1_1.webp?alt=media&token=6b57ef7d-eb45-4c19-b2a8-48342ffd20d4",
         "slug": "accesorios"
     },
     {
@@ -73,7 +73,7 @@
         "modelo": "236-22",
         "precio": 1400,
         "stock": 7,
-        "img": "patron1_3.webp",
+        "img": "https://firebasestorage.googleapis.com/v0/b/todoparatejer-d9b60.appspot.com/o/patron1_3.webp?alt=media&token=a4d3da9a-542c-4d40-ada2-7411f1e09836",
         "slug": "patrones"
     },
     {
@@ -84,7 +84,7 @@
         "modelo": "235-20",
         "precio": 300,
         "stock": 20,
-        "img": "patron1_4.webp",
+        "img": "https://firebasestorage.googleapis.com/v0/b/todoparatejer-d9b60.appspot.com/o/patron1_4.webp?alt=media&token=930d48c9-687c-45e2-a2cf-1ca778da5254",
         "slug": "patrones"
     },
     {
@@ -95,7 +95,7 @@
         "modelo": "235-22",
         "precio": 320,
         "stock": 10,
-        "img": "patron1_2.webp",
+        "img": "https://firebasestorage.googleapis.com/v0/b/todoparatejer-d9b60.appspot.com/o/patron1_2.webp?alt=media&token=7685a444-b335-464e-ba19-429191055103",
         "slug": "patrones"
     }
 ]

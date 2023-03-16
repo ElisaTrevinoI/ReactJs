@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { consultarBDD } from "../Utils/Funciones";
+import { getProducto } from "../Utils/Firebase";
 import { ItemDetail } from "../ItemDetail/ItemDetail";
 
 
@@ -12,8 +12,8 @@ export const ItemDetailContainer = () => {
 
     useEffect(() => {
 
-        consultarBDD('../json/productos.json').then(prods => {
-            const prod = prods.find(item => item.id === parseInt(id))
+        getProducto(id).then(prod => {
+            
             setProducto(prod)
         })
 
